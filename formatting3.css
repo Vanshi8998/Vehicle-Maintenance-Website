@@ -1,0 +1,209 @@
+.navbar-brand 
+{
+  padding: 1px;
+}
+.navbar-brand>img 
+{
+  height: 100%;
+  padding: 0px;
+  width: auto;
+}
+.logo-bar
+{
+	box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.4);
+	background-image:url(images/bg3.jpg);
+	background-size:100% 100%;
+}
+.logo-bar .navbar-nav > li > a
+{
+	color:white;
+	font-size: 20px;
+	font-weight: 600;
+}
+.logo-bar .navbar-nav > li > a:hover
+{
+	color:lime;
+	transform:scale(1.05,1.05);
+	background-color:rgba(0,0,0,0.2);
+}
+body
+{
+	background-image: url("images/bg16.jpg");
+    background-size:100% 100%;
+	padding-top: 50px;
+	color: white;
+	/*background: -webkit-linear-gradient(left, #4527a0,#00897b,#039be5,#18ffff);
+  	background: linear-gradient(to right, #4527a0, #00897b,#039be5,#18ffff);
+  	background-size: 600% 50%;
+    -webkit-animation: HeroBG 40s ease infinite;
+    animation: HeroBG 40s ease infinite;*/
+	/*background-color: crimson;*/
+}
+#left_img
+{
+  border: 5px ridge lightblue;
+	height:175px;
+	width:175px;
+	margin-left:15px;
+  margin-top:30px; 
+  margin-bottom: 15px;
+	background:url(images/2.png) no-repeat center;
+	-webkit-animation-name:a1;
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count:infinite;
+}	
+@-webkit-keyframes a1 
+{	
+	20%{background:url(images/3.png) no-repeat center;}
+	40%{background:url(images/4.jpg) no-repeat center;}
+	60%{background:url(images/5.png) no-repeat center;}
+	80%{background:url(images/6.png) no-repeat center;}
+	100%{background:url(images/2.png) no-repeat center;}
+}
+#menu
+{
+    list-style-type: none;
+    margin: 0;
+    padding:0px 0px;
+    
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+	font-size:20px;
+}
+#list
+{
+    display: block;
+    color: white;
+    padding: 13px 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+#list:hover:not(.active)
+{
+    background-color: rgba(255,255,255,0.3);
+    color: black;
+}
+#first
+{
+	height: 100%;
+	background-image: url("images/cover.jpg");
+	background-size:100% 100%;
+}
+.set-pad 
+{
+    padding-top:35px;
+}
+.set-row-pad 
+{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+.header-line {
+    font-weight: 900;
+    font-size: 25px;
+    padding-bottom: 5px;
+    padding-top: 25px;
+    color: black;
+}
+/*=====================================
+ About STYLES 
+  ===================================*/
+#about
+{
+                                /* background-color: #6f5499; */
+	color: #fff;
+	height:auto;
+	width: 100%;
+	background: -webkit-linear-gradient(left, #ff8a80,#ffc107,#ff5252,#ea80fc);
+  	background: linear-gradient(to right, #ff8a80,#ffc107,#ff5252,#ea80fc);
+  	/*background: -webkit-linear-gradient(left, #24d3d3,#24d3d3 ,#24d3d3 ,#22d686 );
+  	background: linear-gradient(to right, #24d3d3, #22d686,#24d3d3 ,#22d686 );*/
+  	background-size: 600% 50%;
+    -webkit-animation: HeroBG 40s ease infinite;
+    animation: HeroBG 40s ease infinite;
+}
+
+@-webkit-keyframes HeroBG {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+@keyframes HeroBG 
+{
+  0%
+  {
+  	background-position: 0 0;
+  }
+  50% 
+  {
+    background-position: 100% 0;
+  }
+  100% 
+  {
+    background-position: 0 0;
+  }
+}
+
+#about .header-line
+{
+    color: #fff;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+#contact
+{
+	color: black;
+	height:100%;
+	background-image: url("images/contact3.jpg");
+	background-size: 100% 100%;
+}
+#contact .header-line
+{
+    color: black;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+#register
+{
+	color: black;
+	height:auto;
+	background-image: url("images/reg1.jpg");
+	background-size: 100% 100%;
+}
+
+/*=====================================
+  Footer STYLES 
+  ===================================*/
+
+#credits 
+{	  
+	padding:30px 0;
+	text-transform:uppercase;
+	font-size:13px;
+	line-height: 1.4;
+}
+#credits a 
+{
+	color:inherit;
+}
+#credits .social i {
+	border:1px solid #ccc;
+	height:30px;
+	width:30px;
+	line-height:30px;
+	border-radius:50%;
+	margin-left:2px;
+	color:#999;
+	text-align:center;
+	margin-bottom:15px;
+	display:inline-block;
+}
+#credits .social i:hover {
+	color: #5bc0de;
+}
